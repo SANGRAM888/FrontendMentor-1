@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: aliceblue;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    height: 60vh;
+    width: 40vw;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgba(168, 152, 152, 0.544);
+}
+
+.left {
+    height: 60vh;
+    width: 20vw;
+    padding: 20px;
+    gap: 20px;
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.circle {
+    gap: 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.circle p {
+    font-weight: 500;
+}
+
+.circle h1 {
+    font-size: 60px;
+}
+
+.left h3 {
+    font-size: 27px;
+}
+
+.rit {
+    border-radius: 20px;
+    height: 60vh;
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 8px;
+}
+
+.img {
+    background-color: black;
+    height: 6vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 8px;
+}
+
+.par {
+    font-size: 16px;
+    text-align: center;
+    padding: 30px;
+    color: hsl(241, 100%, 89%);
+}
+
+.left-p {
+    color: hsl(241, 100%, 89%);
+}
+
+p {
+    font-weight: 400;
+    color: hsl(241, 100%, 89%);
+}
+
+.s {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-right: 8px;
+}
+
+button {
+    width: 15vw;
+    height: 6vh;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.nb {
+    color: hsl(224, 30%, 27%);
+    font-weight: 650;
+}
+
+span {
+    color: hsl(241, 100%, 89%);
+}
+
+.red {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.wello {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.green {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+.blue {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+h1 {
+    font-size: 30px;
+}
